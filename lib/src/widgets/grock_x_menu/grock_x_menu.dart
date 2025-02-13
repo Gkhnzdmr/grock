@@ -53,7 +53,7 @@ class _GrockXMenuState extends State<GrockXMenu> {
       radius: widget.inkStyle.radius,
       borderRadius: widget.inkStyle.borderRadius,
       customBorder: widget.inkStyle.customBorder,
-      enableFeedback: widget.inkStyle.enableFeedback,
+      enableFeedback: widget.inkStyle.enableFeedback!,
       focusNode: widget.inkStyle.focusNode,
       canRequestFocus: widget.inkStyle.canRequestFocus,
       onFocusChange: widget.inkStyle.onFocusChange,
